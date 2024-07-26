@@ -141,7 +141,7 @@ nav {
     align-items: center;
     justify-content: center;
     width: auto;
-    height: 100vh;
+    height: 50vh;
     flex-direction: column;
 }
 
@@ -170,3 +170,37 @@ nav {
     color: white;
     margin: 10vh;
 }
+/* Slider */
+.slider {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 120vh;
+   border: 3px solid white ;
+   border-radius: 25px;
+   height: 50vh;
+  
+   
+}
+
+.card-item {
+    color:white;
+    padding: 25px;
+    marging: 30vh;
+}
+
+.sources {
+    border: 1px solid white;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 20px;
+    color: white;
+    margin:5vh;
+    border-radius: 5px;
+    
+}
+
+.sources:hover{
+    background-color: white;
+}
+
