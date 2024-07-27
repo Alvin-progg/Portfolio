@@ -22,7 +22,7 @@ function showSlide(index) {
     });
 }
 
-// Assuming you have buttons for navigation
+// PRev and Next index btn
 prevButton.addEventListener('click', () => {
     showSlide(currentIndex - 1);
 });
@@ -35,3 +35,7 @@ nextButton.addEventListener('click', () => {
 setInterval(() => {
     showSlide(currentIndex + 1);
 }, 3000); // Change slide every 3 seconds
+
+
+// Hamburger menu 
+
