@@ -32,10 +32,29 @@ nextButton.addEventListener('click', () => {
 });
 
 // Optional: Auto-slide functionality
-setInterval(() => {
-    showSlide(currentIndex + 1);
-}, 3000); // Change slide every 3 seconds
 
 
 // Hamburger menu 
+function toggleMenu() {
+    var mobileNav = document.getElementById("mobile-nav");
+    if (mobileNav.style.display === "block") {
+        mobileNav.style.display = "none";
+    } else {
+        mobileNav.style.display = "block";
+    }
+
+
+}
+function toggleExit() {
+    var mobileNav = document.getElementById("mobile-nav");
+    if (mobileNav.style.display === "none") {
+        mobileNav.style.display = "block";
+    } else {
+        mobileNav.style.display = "none";
+    }
+
+
+}
+
+
 

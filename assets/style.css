@@ -244,6 +244,27 @@ nav {
 }
 .ham-wrapper {
     display: none;
+    
+    height: 100vh;
+  
+  
+
+}
+.mobile-nav {
+    display: none;
+    position: fixed;
+    background-color: white;
+    width: 40vh;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    
+}
+
+.mobile-nav li {
+
+    list-style-type: none;
+    
 }
 
 @media  (max-width : 768px) {
@@ -259,5 +280,9 @@ nav {
 
     .ham-wrapper {
         display: block;
+      
     }
+
+
+   
 }
