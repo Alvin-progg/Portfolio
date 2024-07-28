@@ -260,13 +260,38 @@ nav {
     right: 0;
     
 }
+.exit {
+    font-size: 1.5rem;
+    padding: 12px;
+    color: #222222;
+}
 
-.mobile-nav li {
+.exit-wrapper {
+    margin: 20px;
+}
+.mobile-nav li  {
 
     list-style-type: none;
+    padding: 10px;
+
     
 }
 
+a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.mob-nav-wrap {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 20px;
+    margin-top: 150px;
+    
+}
 @media  (max-width : 768px) {
 
     nav {
